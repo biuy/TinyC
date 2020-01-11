@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/LexicalAnalysis.c
+stdio.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/stdio.h
+constvar.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/constvar.h
+
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/SyntaxAnalysis.c
+stdio.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/stdio.h
+stdlib.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/stdlib.h
+constvar.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/constvar.h
+
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/TinyC.c
+stdio.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/stdio.h
+errno.h
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/errno.h
+
+/Users/biu/Documents/biu/学习/大三下/编译原理/实验TinyC V1.0/TinyC/constvar.h
+

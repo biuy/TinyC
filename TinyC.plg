@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TinyC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ericlee\AppData\Local\Temp\RSPDC14.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TinyC.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ericlee\Desktop\TinyC\LexicalAnalysis.c"
+"C:\Users\ericlee\Desktop\TinyC\SyntaxAnalysis.c"
+]
+Creating command line "cl.exe @C:\Users\ericlee\AppData\Local\Temp\RSPDC14.tmp" 
+Creating temporary file "C:\Users\ericlee\AppData\Local\Temp\RSPDC15.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/TinyC.pdb" /debug /machine:I386 /out:"Debug/TinyC.exe" /pdbtype:sept 
+.\Debug\LexicalAnalysis.obj
+.\Debug\SyntaxAnalysis.obj
+.\Debug\TinyC.obj
+]
+Creating command line "link.exe @C:\Users\ericlee\AppData\Local\Temp\RSPDC15.tmp"
+<h3>Output Window</h3>
+Compiling...
+LexicalAnalysis.c
+SyntaxAnalysis.c
+C:\Users\ericlee\Desktop\TinyC\SyntaxAnalysis.c(149) : warning C4715: 'cast2int' : not all control paths return a value
+C:\Users\ericlee\Desktop\TinyC\SyntaxAnalysis.c(157) : warning C4715: 'cast2char' : not all control paths return a value
+C:\Users\ericlee\Desktop\TinyC\SyntaxAnalysis.c(433) : warning C4700: local variable 'bval2' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+TinyC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

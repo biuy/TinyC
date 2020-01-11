@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/a.out.dir/TinyC.c.o CMakeFiles/a.out.dir/SyntaxAnalysis.c.o CMakeFiles/a.out.dir/LexicalAnalysis.c.o  -o a.out 

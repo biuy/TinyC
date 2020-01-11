@@ -1,0 +1,16 @@
+main()
+{ int i,j,k;
+  char c;
+ 
+  i=1;j=1;
+
+  while(i<5){
+    i=i+1;
+    if (i==3) {
+      break;
+    }
+    j=j+1;
+  }
+  show(i);
+  show(j);
+}
